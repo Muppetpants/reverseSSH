@@ -39,7 +39,7 @@ echo "ssh -fN -R $piRevPort:localhost:$piPort $vpsUser@$vpsIP -p $vpsPort -i /ho
 chmod +x /home/$piUser/jumpbox.sh
 
 #Create cronjob to start tunnel at reboot
-sudo sh -c  "echo @reboot $piUser /home/$piUser/jumpbox.sh > /etc/cron.d/cronjob"
+sudo sh -c  "echo @reboot $piUser sleep 90 \&\& bash /home/$piUser/jumpbox.sh > /etc/cron.d/cronjob"
 sudo sh -c "chmod 0644 /etc/cron.d/cronjob"
 
 
