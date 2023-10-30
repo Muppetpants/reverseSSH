@@ -5,17 +5,17 @@ This script will prompt for user input, configure and copy keys, and create a cr
 
 Create a local copy of the script.
 
-```wget https://raw.githubusercontent.com/Muppetpants/reverseSSH/main/setup.sh```
+```wget https://raw.githubusercontent.com/Muppetpants/reverseSSH/main/rSSHsetup.sh```
 
 Make the script executable
 
-```sudo chmod +x setup.sh```
+```sudo chmod +x rSSHsetup.sh```
 
 # Important: Ensure the remote access device (RPi) is congfigured to automatically join the Internet (via LAN, WLAN). 
 
 Run the script
 
-```sudo ./setup.sh```
+```sudo ./rSSHsetup.sh```
 
 Add user input for ```Pi Username```
 
