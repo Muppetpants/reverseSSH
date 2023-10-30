@@ -2,6 +2,14 @@
 
 #Description: Run script on a pi to create a VPS (deb/ubuntu) callback through SSH
 
+clear
+# Checks to verify that the script is not running as root
+if [[ $EUID -eq 0 ]]; then
+   echo "THIS SCRIPT SHOULD NOT BE RUN AS ROOT."
+   echo "EX:  ./setup.sh"
+   exit 1
+fi
+
 read -p "Pi Username (case-sensitive): " piUser
 read -p "Pi SSH Port: " piPort
 read -p "Pi Reverse Port: " piRevPort
