@@ -18,10 +18,15 @@ Run the script
 ```sudo ./setup.sh```
 
 Add user input for ```Pi Username```
+
 Add user input for ```Pi SSH Port```
+
 Add user input for ```Pi SSH Reverse Port```
+
 Add user input for ```VPS IPv4 Address```
+
 Add user input for ```VPS SSH Port```
+
 Add user input for ```VPS Username```
 
 ```Press enter if settings are correct. ```
