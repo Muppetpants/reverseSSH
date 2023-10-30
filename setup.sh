@@ -51,3 +51,4 @@ echo "######################## Test cert and gain access #######################
 echo "[1] Test access. Run: ssh $vpsUser@$vpsIP -p $vpsPort -i /home/$piUser/.ssh/piTO$vpsIP"
 echo "[2] Reboot pi. Run: sudo reboot"
 echo "[3] Login to VPS, then access Pi. Run: ssh $piUser@localhost -p $piRevPort"
+echo "###########################################################################"
