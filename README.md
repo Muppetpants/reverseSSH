@@ -1,7 +1,7 @@
 # reverseSSH
-Bash script to automate reverse SSH remote access device (RPi) to VPS configuration.
+Bash script to automate the configuration of reverse SSH tunnel between remote access device (RPi) and VPS.
 
-This script will prompt for user input, configure and copy keys, and create a cronjob to establish reverse callback at reboot..
+This script will prompt for user input, configure and copy keys, and create a cronjob to establish reverse callback at reboot.
 
 Create a local copy of the script.
 
