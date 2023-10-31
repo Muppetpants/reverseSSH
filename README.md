@@ -3,7 +3,7 @@ Bash script to automate the configuration of reverse SSH tunnel between remote a
 
 This script will prompt for user input, configure and copy keys, and create a cronjob to establish reverse callback at reboot.
 
-Create a local copy of the script.
+Create a local copy of the script on the remote device (RPi).
 
 ```wget https://raw.githubusercontent.com/Muppetpants/reverseSSH/main/rSSHsetup.sh```
 
